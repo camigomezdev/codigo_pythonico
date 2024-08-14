@@ -2,27 +2,30 @@
 Whitespace in Expressions and Statements
 """
 
+
 def function(default_parameter=5):
     pass
 
-## Asignations
+
+# Asignations
 x = 3
 y = 2
 
-## Priority
+# Priority
 # Recommended
-if x>5 and x%2==0:
-    print('x is larger than 5 and divisible by 2!')
-
-# Not recommended
 if x > 5 and x % 2 == 0:
-    print('x is larger than 5 and divisible by 2!')
+    print("x is larger than 5 and divisible by 2!")
+
+# Not Recommended
+if x>5 and x%2 == 0:
+    print("x is larger than 5 and divisible by 2!")
+
 
 # Definitely do not do this!
 if x >5 and x% 2== 0:
-    print('x is larger than 5 and divisible by 2!')
+    print("x is larger than 5 and divisible by 2!")
 
-## 
+# Operations
 # Recommended
 y = x**2 + 5
 z = (x+y) * (x-y)
@@ -32,7 +35,7 @@ y = x ** 2 + 5
 z = (x + y) * (x - y)
 
 
-## Group 
+# Lists
 list[3:4]
 
 # Treat the colon as the operator with lowest priority

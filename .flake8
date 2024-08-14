@@ -7,5 +7,6 @@ exclude =
     old,
     build,
     dist,
-    venv
-max-complexity = 10
+    venv,
+    env
+max-complexity = 5

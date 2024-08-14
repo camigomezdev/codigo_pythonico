@@ -1,7 +1,7 @@
 """
 Code Layout
 """
-# Blank Lines
+# BLANK LINES
 # Surround top-level functions and classes with two blank lines.
 
 
@@ -16,6 +16,10 @@ class MyFirstClass:
 
 class MySecondClass:
     pass
+
+
+def top_level_function():
+    return None
 
 
 # Use blank lines sparingly inside functions to show clear steps.
